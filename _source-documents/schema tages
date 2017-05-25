@@ -1,0 +1,54 @@
+
+// FROM DAVID
+<span node="con:policy.id">
+<span node="con:policy.revision">
+<span node="con:policy.current">
+<span node="con:policy.inception_date">
+<span node="con:policy.expiration_date">
+<span node="con:policy.anniversary_date">
+<span node="con:policy.duration">
+<span node="con:policy.policy_number">
+<span node="con:policy.premium_status">
+<span node="con:policy.policy_status">
+<span node="con:policy.cancellation_reason">
+<span node="con:policy.rejection_reason">
+<span node="con:policy.face_amount">
+<span node="con:policy.death_benefit">
+<span node="con:policy.benefit_period">
+<span node="con:policy.state_of_residence">
+<span node="con:policy.issue_age">
+<span node="con:policy.general_class">
+<span node="con:policy.smoker_class">
+<span node="con:policy.gender">
+<span node="con:policy.underwriting_method">
+<span node="con:policy.core_rate">
+<span node="con:policy.core_premium">
+<span node="con:policy.policy_admin_fee">
+<span node="con:policy.total_premium">
+<span node="con:policy.installment_amount">
+<span node="con:policy.payment_mode">
+<span node="con:policy.current_premium_due">
+<span node="con:policy.premium_past_due">
+<span node="con:policy.premium_refund">
+<span node="con:policy.premium_tax">
+<span node="con:policy.reinsurance_mode">
+<span node="con:policy.treaty_number">
+<span node="con:policy.percent_ceded">
+<span node="con:policy.billing_day">
+<span node="con:policy.billing_month">
+<span node="con:policy.beneficiaries">
+<span node="con:policy.application">
+<span node="con:policy.application.fullName">
+<span node="con:policy.application.gender">
+<span node="con:policy.application.birthdate">
+<span node="con:policy.application.heightFeet">
+<span node="con:policy.application.heightInches">
+<span node="con:policy.application.weight">
+<span node="con:policy.application.email">
+<span node="con:policy.application.phone">
+<span node="con:policy.plan_interval">
+
+
+
+// CUSTOM NODES
+<span node="con:policy.home_office">
