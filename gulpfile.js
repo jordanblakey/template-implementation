@@ -22,7 +22,7 @@ var gulp = require('gulp'),
 
     // CONCATENATION & MINIFICATION
     uglify = require('gulp-uglify'),
-    concat = require('gulp-concat'),
+    concatenate = require('gulp-concat'),
     imagemin = require('gulp-imagemin'),
     uncss = require('gulp-uncss'),
     mincss = require('gulp-minify-css');
@@ -50,7 +50,7 @@ var paths = {
     jsdir: 'app/js',
 
     // SASS PREPROCESSING
-    scss: 'app/scss/app.scss',
+    scss: 'app/scss/*.scss',
     scssWatch: 'app/scss/',
     css: 'app/css',
 
@@ -73,7 +73,7 @@ gulp.task('scripts', function(){
     .pipe(plumber())
     // TO CONCATENATE ALL SCRIPTS,
     // COMMENT OUT RENAME AND USE CONCAT:
-    .pipe(concat('app.min.js'))
+    .pipe(concatenate('app.min.js'))
     // TO MINIFY INDIVIDUAL SCRIPTS,
     // COMMENT OUT CONCAT AND USE RENAME:
     .pipe(uglify())

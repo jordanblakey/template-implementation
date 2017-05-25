@@ -1,0 +1,81 @@
+/*///// VARIABLES /////*/
+$root-em: 16px;
+
+
+/*///// MIXINS /////*/
+@mixin webkit-padding() {
+  -webkit-margin-before: 0;
+  -webkit-margin-start: 0;
+  -webkit-padding-start: 0;
+}
+
+/*/////	LAYOUT 	/////*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: $root-em;
+}
+body {
+  padding: 1rem 2rem;
+  font-size: 12px;
+}
+
+section {
+  border-bottom: 1px solid #ddd;
+  padding: .5rem 0;
+  tr:first-child {
+    background: #ddd;
+    font-weight: 700;
+  }
+}
+
+/*/////	TABLE STYLES 	/////*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+
+  td {
+    vertical-align: top;
+    padding: .15rem .25rem;
+    border: 1px solid black;
+  }
+
+  tr:nth-child(odd) {
+    background: #f0f0f0;
+  }
+}
+
+/*/////	TYPOGRAPHY 	/////*/
+.inline {
+  margin-bottom: 1rem;
+  text-align: left;
+
+  h4 {
+    display: inline;
+    text-transform: uppercase;
+    font-size: .75rem;
+
+    & + p {
+      display: inline;
+      margin-left: .25rem;
+
+      &:after {
+        content: "\A";
+        white-space: pre;
+      }
+    }
+  }
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: .4rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: .6rem;
+}
+
+/*///// PARTIALS & IMPORTS /////*/
+@import 'partials/policy';
